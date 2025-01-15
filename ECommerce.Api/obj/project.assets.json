@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "AspNetCore.HealthChecks.MySql >= 5.0.1",
+      "AspNetCore.HealthChecks.Sqlite >= 5.0.1",
+      "FluentValidation.AspNetCore >= 9.3.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.2",
+      "NWebsec.AspNetCore.Middleware >= 3.0.0",
+      "Swashbuckle.AspNetCore >= 6.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Yan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\01 Mi carpeta\\E Commerce\\eCommerce-App-master\\eCommerce-App-master\\backend\\ECommerce.Api\\Api.csproj",
+      "projectName": "Api",
+      "projectPath": "E:\\01 Mi carpeta\\E Commerce\\eCommerce-App-master\\eCommerce-App-master\\backend\\ECommerce.Api\\Api.csproj",
+      "packagesPath": "C:\\Users\\Yan\\.nuget\\packages\\",
+      "outputPath": "E:\\01 Mi carpeta\\E Commerce\\eCommerce-App-master\\eCommerce-App-master\\backend\\ECommerce.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Yan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "E:\\01 Mi carpeta\\E Commerce\\eCommerce-App-master\\eCommerce-App-master\\backend\\ECommerce.Application\\Application.csproj": {
+              "projectPath": "E:\\01 Mi carpeta\\E Commerce\\eCommerce-App-master\\eCommerce-App-master\\backend\\ECommerce.Application\\Application.csproj"
+            },
+            "E:\\01 Mi carpeta\\E Commerce\\eCommerce-App-master\\eCommerce-App-master\\backend\\ECommerce.Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "E:\\01 Mi carpeta\\E Commerce\\eCommerce-App-master\\eCommerce-App-master\\backend\\ECommerce.Infrastructure\\Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "AspNetCore.HealthChecks.MySql": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          },
+          "AspNetCore.HealthChecks.Sqlite": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          },
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[9.3.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.1.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[7.0.2, )"
+          },
+          "NWebsec.AspNetCore.Middleware": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.5.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "AspNetCore.HealthChecks.MySql"
+    }
+  ]
+}
